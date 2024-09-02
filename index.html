@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Tester Portfolio</title>
+    <style>
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Navigation styles */
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #333;
+        }
+
+        /* Section styles */
+        .section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about, .projects {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .about h2, .projects h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .about p, .projects ul {
+            font-size: 1rem;
+        }
+
+        .projects ul {
+            list-style-type: none;
+        }
+
+        .projects ul li {
+            margin-bottom: 10px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .projects ul li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+        }
+
+        /* Contact styles */
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            display: inline-block;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #333;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Hello, I'm Sandro Jimena</h1>
+            <p>Quality Assurance Tester | Passionate About Software Quality</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="Project.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <main class="container">
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>I am a dedicated Quality Assurance (QA) Tester with over 7 years of experience in software testing, ensuring the quality of web and mobile applications through manual and automated testing. My goal is to deliver software that meets the highest standards of quality and user experience.</p>
+        </section>
+
+        <section id="projects" class="section projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>Payment Platform Testing:</strong> Automated test scripts to validate payment processing workflows.</li>
+                <li><strong>KYC Form Automation:</strong> Ensured compliance with legal standards through comprehensive form validation tests.</li>
+                <li><strong>Web Application Testing:</strong> Conducted functional and regression testing for Fin-Tech application.</li>
+                <li><strong>Robotic Process Application:</strong> Automate Headless auto login to dashboard Get the OTP in the email using Gmail API,
+                    Send the Otp to the other email recipient and also Send the OTP in Telegram using Telegram API.
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Me</h2>
+            <p>If you would like to collaborate or learn more about my work, feel free to reach out!</p>
+            <a href="mailto:your-email@example.com">sandrojimena0814@gmail.com</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Me. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - QA Tester Portfolio</title>
+    <link href='Contact.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Navigation styles */
+        nav {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        nav a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 30px;
+        }
+
+        nav a:hover {
+            color: #333;
+        }
+
+        /* Contact form styles */
+        .contact-box {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .contact-left, .contact-right {
+            width: 48%;
+        }
+
+        .contact-left h3, .contact-right h3 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .input-group input, .input-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #333;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Sandro D. Jimena</h1>
+            <p>Quality Assurance Tester | Passionate About Software Quality</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Project.html">Projects</a>
+
+    </nav>
+     <br>
+    <br>
+
+    <!-- Contact Form -->
+    <div class="container">
+        <h1>Engage with Us</h1>
+        <p>Tribu Sinag Padayon is happy to assist you. Feel free to contact us</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Share Your Thoughts</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Ako budoy">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="Your number">
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="YourEmail@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Your subject">
+                        </div>
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Please type here your message"></textarea>
+
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <h3>Connect with Us</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>Tribusinagpadayon@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>09983253731</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>Makati Metro Manila Philippines</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Tribu Sinag Padayon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
