@@ -121,6 +121,14 @@
             position: relative;
             width: 100%;
         }
+        textarea {
+    width: 100%; /* Adjust width as needed, e.g., 300px */
+    height: 100px; /* Adjust height as needed, e.g., 150px */
+    resize: both; /* Allows resizing in both directions. Options: none, both, horizontal, vertical */
+    padding: 10px; /* Optional: Adds padding inside the textarea */
+    border: 1px solid #ccc; /* Optional: Adds border around the textarea */
+    border-radius: 5px; /* Optional: Rounds the corners of the textarea */
+}
     </style>
 </head>
 <body>
@@ -172,7 +180,7 @@
                     </div>
 
                     <label>Message</label>
-                    <textarea rows="5" placeholder="Please type here your message"></textarea>
+                    <textarea rows="2" placeholder="Please type here your message"></textarea>
 
                     <button type="submit">SEND</button>
                 </form>
